@@ -22,6 +22,7 @@ public class JournalController {
         return repo.findAll();
     }
 
+    // this is to aded to ammend
     @RequestMapping(value ="/journal", produces ={MediaType.APPLICATION_JSON_VALUE})
     public @ResponseBody List<journal> getAll(){
         return repo.findAll();
