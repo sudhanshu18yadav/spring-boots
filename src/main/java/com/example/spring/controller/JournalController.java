@@ -22,7 +22,6 @@ public class JournalController {
         return repo.findAll();
     }
 
-    // to find all journals
     @RequestMapping(value ="/journal", produces ={MediaType.APPLICATION_JSON_VALUE})
     public @ResponseBody List<journal> getAll(){
         return repo.findAll();
